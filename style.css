@@ -7,11 +7,16 @@ html,
 body {
   width: 99.5%;
   height: 99.5%;
+  font-family: "Droid Serif", serif;
+  font-size: 14px;
+  color: #2f2f2f;
+  background-color: #f9f7f1;
 }
 .heading {
-  background-color: gray;
-  margin-top: 1px;
+  background-color: #fbebbd;
+  margin-bottom: 0px;
   text-align: center;
+  font-weight: bolder;
 }
 #container {
   height: 99.5%;
@@ -20,29 +25,35 @@ body {
 h1 {
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 img {
   width: 100%;
   height: 100%;
-  float: left;
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 90px 300px;
-  gap: 10px;
-  background-color: #2196f3;
-  padding: 10px;
+  grid-template-columns: auto 25% 25% auto;
+  grid-template-rows: 200px 200px 200px 200px;
+  background-image: url("https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg?w=2000&t=st=1681538681~exp=1681539281~hmac=1b21396e8cb1fbbf2c3ce7a052adbdc20651e931c1a186cd3d49183d0ade7444");
+  column-gap: 2px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 0px 0;
+  font-size: 0.9rem;
+  font-weight: bolder;
 }
 
 .item2 {
   grid-area: 1 / 2 / 3 / 4;
+}
+
+.item7 {
+  grid-area: 3 / 2 / span 1 / span 2;
+}
+
+.item11 {
+  grid-area: 4 / 2 / span 1 / span 2;
 }
