@@ -44,6 +44,7 @@ img {
   grid-template-columns: auto 25% 25% auto;
   grid-template-rows: 250px 250px 260px 300px;
   column-gap: 0px;
+  padding-bottom: 30px;
 }
 
 .item1 {
@@ -123,12 +124,4 @@ img {
   padding-right: 0;
   font-size: 1rem;
   text-align: justify;
-}
-.footer {
-  margin-top: 40px;
-  background-color: rgb(253, 253, 222);
-  text-align: center;
-}
-a {
-  color: blue;
 }
