@@ -44,7 +44,7 @@ img {
   grid-template-columns: auto 25% 25% auto;
   grid-template-rows: 250px 250px 260px 300px;
   column-gap: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .item1 {
